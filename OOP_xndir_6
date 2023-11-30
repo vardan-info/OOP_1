@@ -1,0 +1,19 @@
+// Հաշվեք վայրկյանների ընդհանուր քանակը,
+// Вычислить общее количество секунд
+public class Main {
+    public static void main(String[] args) {
+    Minut minut1=new Minut();
+    minut1.VarkyaneriQanak=20;
+    minut1.RopeneriQanak=40;
+        System.out.println(minut1.VarkyaneriYndhanurQanaky());
+    }
+}
+
+class Minut{
+    int VarkyaneriQanak;
+    int RopeneriQanak;
+
+    int VarkyaneriYndhanurQanaky(){
+        return VarkyaneriQanak*RopeneriQanak;
+    }
+}
