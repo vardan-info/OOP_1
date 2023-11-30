@@ -1,0 +1,18 @@
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+// then press Enter. You can now see whitespace characters in your code.
+public class Main {
+    public static void main(String[] args) {
+   Txtadrami_anvanum  txtadrami_anvanum1 =new  Txtadrami_anvanum();
+   txtadrami_anvanum1.hashivner=10;
+   txtadrami_anvanum1.txtadram=15;
+        System.out.println(txtadrami_anvanum1.gumari_hashvum());
+    }
+}
+
+class  Txtadrami_anvanum{
+    int hashivner;
+    int  txtadram;
+    int gumari_hashvum(){
+        return hashivner+txtadram;
+    }
+}
