@@ -1,0 +1,26 @@
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+// xndir--13
+public class Main {
+    public static void main(String[] args) {
+    HashvelKisat  hashvelKisat1=new  HashvelKisat();
+     hashvelKisat1.irakanTiv=10;
+     hashvelKisat1.irakanTiv=4;
+        System.out.println(hashvelKisat1.HashvelKisat());
+
+
+    }
+
+}
+
+class HashvelKisat {
+    int irakanTiv;
+    int irakan;
+
+
+    int HashvelKisat() {
+        return irakanTiv - irakan;
+
+
+    }
+}
+
