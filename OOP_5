@@ -1,0 +1,19 @@
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+// then press Enter. You can now see whitespace characters in your code.
+public class Main {
+    public static void main(String[] args) {
+   IrakanTivZax irakanTivZax1 =new IrakanTivZax();
+     irakanTivZax1.ZaxEzragic=20;
+     irakanTivZax1.AjEzragic=25;
+        System.out.println(irakanTivZax1.ShrjanakiErkatuyuanQarakusin());
+
+    }
+}
+
+class IrakanTivZax{
+ int ZaxEzragic;
+ int AjEzragic;
+ int ShrjanakiErkatuyuanQarakusin(){
+ return ZaxEzragic+AjEzragic;
+ }
+}
