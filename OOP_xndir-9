@@ -1,0 +1,23 @@
+// xndir 9
+Вычислить пройденное расстояние (в метрах)
+// Հաշվեք անցած հեռավորությունը հեռավորություն (մետր)
+public class Main {
+    public static void main(String[] args) {
+    Heravorutyun heravorutyun1=new Heravorutyun();
+    heravorutyun1.m=90;
+    heravorutyun1.sm=20;
+        System.out.println(heravorutyun1.Hashveq());
+    }
+}
+
+class Heravorutyun{
+    int sm;
+    int m;
+
+
+    int Hashveq(){
+        return sm+m;
+    }
+
+
+}
