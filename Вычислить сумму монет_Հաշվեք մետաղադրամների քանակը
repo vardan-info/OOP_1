@@ -1,0 +1,19 @@
+// Xndir_2Հաշվեք մետաղադրամների քանակը`,
+// then press Enter. You can now see whitespace characters in your code.
+public class Main {
+    public static void main(String[] args) {
+    Metaxadram metaxadram1 = new Metaxadram();
+    metaxadram1.arjeq=250;
+    metaxadram1.qanak=20;
+        System.out.println(metaxadram1.Metaxadrami_hashvum());
+
+    }
+}
+
+class Metaxadram{
+    int arjeq;
+    int qanak;
+    int Metaxadrami_hashvum(){
+        return arjeq*qanak;
+    }
+}
