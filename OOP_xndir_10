@@ -1,0 +1,22 @@
+// Вычислить длину гипотенузы прямоугольного треугольника
+// Հաշվե՛ք ուղղանկյուն եռանկյան հիպոթենուսի երկարությունը
+public class Main {
+    public static void main(String[] args) {
+   Erkarutyun erkarutyun1=new Erkarutyun();
+    erkarutyun1.Decimetr=10;
+    erkarutyun1.Santimetr=20;
+        System.out.println(erkarutyun1.Hashveq());
+    }
+}
+
+class Erkarutyun{
+    int Decimetr;
+    int Santimetr;
+
+
+    int Hashveq(){
+        return Decimetr+Santimetr;
+    }
+
+
+}
