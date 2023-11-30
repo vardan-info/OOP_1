@@ -1,0 +1,29 @@
+// xndir--12
+// Вычислить тангенс угла ,
+противолежащего второму
+катету прямоугольного
+треугольника
+public class Main {
+    public static void main(String[] args) {
+   HashvirAnkyanShoshapum hashvirAnkyanShoshapum1=new HashvirAnkyanShoshapum();
+     hashvirAnkyanShoshapum1.sin=90;
+     hashvirAnkyanShoshapum1.cosinus=180;
+        System.out.println(hashvirAnkyanShoshapum1.HashvirKesGumar());
+
+
+    }
+
+}
+
+class HashvirAnkyanShoshapum{
+    int sin;
+    int cosinus;
+
+
+    int HashvirKesGumar(){
+        return sin+cosinus;
+    }
+
+
+}
+
