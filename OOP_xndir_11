@@ -1,0 +1,26 @@
+// Вычислить полу-сумму 11xndir
+// Հաշվիր կես գումարը
+public class Main {
+    public static void main(String[] args) {
+   HashvirKesGumar hashvirKesGumar1=new HashvirKesGumar();
+    hashvirKesGumar1.storinHimq=10;
+    hashvirKesGumar1.verinHimq=10;
+        System.out.println(hashvirKesGumar1.HashvirKesGumar());
+        System.out.println(10);
+
+    }
+
+}
+
+class HashvirKesGumar{
+    int storinHimq;
+    int verinHimq;
+
+
+    int HashvirKesGumar(){
+        return storinHimq+verinHimq;
+    }
+
+
+}
+
