@@ -1,0 +1,19 @@
+// Вычислить площадь прямоугольного треугольника
+// Հաշվի՛ր ուղղանկյուն եռանկյան մակերեսը
+public class Main {
+    public static void main(String[] args) {
+    Makeres makeres1=new Makeres();
+    makeres1.ArajinVotq=90;
+    makeres1.EkrordVotq=30;
+        System.out.println(makeres1.Makeres());
+    }
+}
+
+class Makeres{
+    int ArajinVotq;
+    int EkrordVotq;
+
+    int Makeres(){
+        return ArajinVotq+EkrordVotq;
+    }
+}
