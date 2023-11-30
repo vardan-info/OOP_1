@@ -1,0 +1,19 @@
+// Вычислить общее количество минут
+// Հաշվեք ընդհանուր րոպեները
+public class Main {
+    public static void main(String[] args) {
+    RopeNeriQanak ropeNeriQanak1=new RopeNeriQanak();
+    ropeNeriQanak1.Rope=60;
+    ropeNeriQanak1.Jam =12;
+        System.out.println(ropeNeriQanak1.RopeNeriQanak());
+    }
+}
+
+class RopeNeriQanak{
+    int Rope;
+    int Jam;
+
+    int RopeNeriQanak(){
+        return Rope+Jam;
+    }
+}
