@@ -1,0 +1,24 @@
+xndir------18
+public class Main {
+    public static void main(String[] args) {
+        Hashvark hashvark1=new Hashvark();
+        hashvark1.tevoxutyun=50;
+        hashvark1.arjeq=60;
+        System.out.println(hashvark1.Rope());
+
+
+    }
+
+}
+
+class Hashvark{
+    int tevoxutyun=50;
+    int arjeq=60;
+
+
+    int Rope(){
+        return tevoxutyun+arjeq;
+    }
+
+
+}
