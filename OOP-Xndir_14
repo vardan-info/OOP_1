@@ -1,0 +1,25 @@
+xndir--14
+public class Main {
+    public static void main(String[] args) {
+        Calculate calculate1=new Calculate();
+        calculate1.irakan=4;
+        calculate1.irakan1=4;
+        System.out.println(calculate1.Calculate());
+
+
+    }
+
+}
+
+class Calculate{
+    int irakan;
+    int irakan1;
+
+
+    int Calculate(){
+        return irakan*irakan1;
+    }
+
+
+}
+//4-i qarakusin 16-na
