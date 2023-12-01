@@ -1,0 +1,24 @@
+Xndir---19
+public class Main {
+    public static void main(String[] args) {
+        Vorosheq  vorosheq1=new  Vorosheq();
+        vorosheq1.keter=50;
+        vorosheq1.arancner=60;
+        System.out.println(vorosheq1.Kordinant());
+
+
+    }
+
+}
+
+class Vorosheq{
+    int keter=50;
+    int arancner=60;
+
+
+    int Kordinant(){
+        return keter+arancner;
+    }
+
+
+}
