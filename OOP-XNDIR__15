@@ -1,0 +1,24 @@
+OOP-XNDIR__15
+public class Main {
+    public static void main(String[] args) {
+        Calculate1 calculate1=new Calculate1();
+        calculate1.amboxj1=4;
+        calculate1.amboxj2=4;
+        System.out.println(calculate1.Calculate1());
+
+
+    }
+
+}
+
+class Calculate1{
+    double amboxj1=0.5;;
+    double amboxj2=0.4;
+
+
+    double Calculate1(){
+        return amboxj1/amboxj2;
+    }
+
+
+}
