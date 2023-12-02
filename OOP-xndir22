@@ -1,0 +1,24 @@
+xndir22
+public class Main {
+    public static void main(String[] args) {
+       Kordinant kordinant1=new Kordinant();
+        kordinant1.KordinatX1=5;
+        kordinant1.KordinatY2=4;
+        System.out.println(kordinant1.Uxankyun());
+
+
+    }
+
+}
+
+class Kordinant{
+    int KordinatX1=5;;
+    int KordinatY2=4;
+
+
+    int Uxankyun(){
+        return KordinatX1+KordinatY2;
+    }
+
+
+}
