@@ -1,0 +1,24 @@
+
+public class Main {
+    public static void main(String[] args) {
+       Heravorutyun  heravorutyun1=new  Heravorutyun();
+        heravorutyun1.KordinatX1=5;
+        heravorutyun1.KordinatY1=4;
+        System.out.println(heravorutyun1.Matnanshum());
+
+
+    }
+
+}
+
+class Heravorutyun{
+    int KordinatX1=5;;
+    int KordinatY1=4;
+
+
+    int Matnanshum(){
+        return KordinatX1+KordinatY1;
+    }
+
+
+}
