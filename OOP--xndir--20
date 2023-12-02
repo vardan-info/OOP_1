@@ -1,0 +1,24 @@
+xndir--20
+public class Main {
+    public static void main(String[] args) {
+       HashveqQarakusin hashveqQarakusin1=new HashveqQarakusin();
+        hashveqQarakusin1.irakanA=5;
+        hashveqQarakusin1.irakanB=4;
+        System.out.println(hashveqQarakusin1.Qarakusin());
+
+
+    }
+
+}
+
+class HashveqQarakusin{
+    int irakanA=5;;
+    int irakanB=4;
+
+
+    int Qarakusin(){
+        return irakanA-irakanB;
+    }
+
+
+}
