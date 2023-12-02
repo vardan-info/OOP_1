@@ -1,0 +1,24 @@
+
+public class Main {
+    public static void main(String[] args) {
+       Qanak  qanak1=new  Qanak();
+       qanak1.Arjeq1=5;
+        qanak1.Arjeq2=4;
+        System.out.println(qanak1.Ashxatanqi());
+
+
+    }
+
+}
+
+class Qanak{
+    int Arjeq1=5;;
+    int Arjeq2=4;
+
+
+    int Ashxatanqi(){
+        return Arjeq1*Arjeq2;
+    }
+
+
+}
